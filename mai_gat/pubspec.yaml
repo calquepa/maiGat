@@ -1,0 +1,36 @@
+name: mai_gat
+description: "Flutter project for test thecatapi."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Style
+  google_fonts: '6.1.0'
+
+  # State
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  # [Loader]
+    - lib/core/assets/images/cat_loading1.png
+    - lib/core/assets/images/cat_loading2.png
+    - lib/core/assets/images/cat_loading3.png
+    - lib/core/assets/images/cat_loading4.png
+    - lib/core/assets/images/cat_error_no_data.png
